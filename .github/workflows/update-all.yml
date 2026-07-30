@@ -1,0 +1,44 @@
+name: Update NPB data
+
+on:
+  schedule:
+    # 毎日 03:00 UTC に実行（必要なら時刻を変更してください）
+    - cron: '0 3 * * *'
+  workflow_dispatch: {} # 手動トリガー
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run fetch script
+        env:
+          TZ: UTC
+        run: |
+          python scripts/fetch_all.py --out-dir data
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add data
+            git commit -m "Auto-update NPB data: $(date -u +%Y-%m-%d)"
+            git push origin HEAD:main
+          else
+            echo "No changes"
+          fi
