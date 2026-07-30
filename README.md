@@ -1,22 +1,48 @@
 # npb-standings
 
-このリポジトリには、公式サイト（npb.jp など）から取得したプロ野球データを自動で更新するワークフローとスクリプトを追加しました。
+2026年プロ野球（NPB）の**順位表**と**順位推移**を表示する Streamlit アプリです。
 
-- 更新頻度: 毎日 03:00 UTC に自動実行
-- 手動トリガー: GitHub Actions の "Run workflow" で手動実行可能
-- 直接 main に push して更新します
+## 機能
 
-生成されるファイル（data/ ディレクトリ）:
-- standings.json
-- schedule.json
-- results.json
-- rosters.json
-- stats.json
+- セ・リーグ / パ・リーグ の最新順位表（NPB公式サイトから取得）
+- 日次スナップショットによる順位推移グラフ
+- チームカラー付き折れ線グラフ
+- GitHub Actions による毎日自動更新
 
-注意点:
-- スクレイピング先の利用規約に従ってください。
-- 初回実装は汎用的なテーブルパーサを用いています。実際のページ構造に合わせて scripts/fetch_all.py のパーサを調整する必要があります。
+## デモ
 
-次のステップ:
-- 具体的なページ（npb.jp の各ページ）のセレクタを私に教えるか、許可があれば私が確認して調整します。
-- ワークフローの時刻を変える場合はお知らせください。
+ローカルで動かす場合:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## 自動更新
+
+`.github/workflows/update-all.yml` が毎日 03:00 UTC（日本時間 12:00）に実行され、
+
+1. NPB公式サイトから最新順位を取得
+2. `data/standings.json` を更新
+3. `data/rank_history.json` に当日の順位を追記
+4. 変更があれば main に push
+
+します。
+
+手動実行も可能です（Actions タブ → Run workflow）。
+
+## データファイル
+
+| ファイル | 内容 |
+|---------|------|
+| `data/standings.json` | 最新のセ・パ順位 |
+| `data/rank_history.json` | 日付ごとの順位履歴 |
+
+## 注意
+
+- スクレイピング先（npb.jp）の利用規約を遵守してください
+- サイト構造が変わった場合は `scripts/fetch_all.py` のパーサーを調整する必要があります
+
+## ライセンス
+
+MIT
