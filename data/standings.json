@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-07-31T06:15:02.559694+00:00",
+  "year": 2026,
+  "central": [
+    {
+      "rank": 1,
+      "team": "阪神タイガース",
+      "games": 91,
+      "wins": 50,
+      "losses": 40,
+      "draws": 1,
+      "pct": ".556",
+      "gb": "—"
+    },
+    {
+      "rank": 2,
+      "team": "読売ジャイアンツ",
+      "games": 92,
+      "wins": 50,
+      "losses": 40,
+      "draws": 2,
+      "pct": ".556",
+      "gb": "—"
+    },
+    {
+      "rank": 3,
+      "team": "東京ヤクルトスワローズ",
+      "games": 92,
+      "wins": 44,
+      "losses": 47,
+      "draws": 1,
+      "pct": ".484",
+      "gb": "6.5"
+    },
+    {
+      "rank": 4,
+      "team": "横浜DeNAベイスターズ",
+      "games": 92,
+      "wins": 39,
+      "losses": 50,
+      "draws": 3,
+      "pct": ".438",
+      "gb": "10.5"
+    },
+    {
+      "rank": 5,
+      "team": "広島東洋カープ",
+      "games": 89,
+      "wins": 35,
+      "losses": 50,
+      "draws": 4,
+      "pct": ".412",
+      "gb": "12.5"
+    },
+    {
+      "rank": 6,
+      "team": "中日ドラゴンズ",
+      "games": 94,
+      "wins": 38,
+      "losses": 55,
+      "draws": 1,
+      "pct": ".409",
+      "gb": "13.5"
+    }
+  ],
+  "pacific": [
+    {
+      "rank": 1,
+      "team": "福岡ソフトバンクホークス",
+      "games": 93,
+      "wins": 58,
+      "losses": 34,
+      "draws": 1,
+      "pct": ".630",
+      "gb": "—"
+    },
+    {
+      "rank": 2,
+      "team": "埼玉西武ライオンズ",
+      "games": 96,
+      "wins": 53,
+      "losses": 40,
+      "draws": 3,
+      "pct": ".570",
+      "gb": "5.5"
+    },
+    {
+      "rank": 3,
+      "team": "北海道日本ハムファイターズ",
+      "games": 96,
+      "wins": 54,
+      "losses": 42,
+      "draws": 0,
+      "pct": ".563",
+      "gb": "6.0"
+    },
+    {
+      "rank": 4,
+      "team": "オリックス・バファローズ",
+      "games": 94,
+      "wins": 46,
+      "losses": 46,
+      "draws": 2,
+      "pct": ".500",
+      "gb": "12.0"
+    },
+    {
+      "rank": 5,
+      "team": "千葉ロッテマリーンズ",
+      "games": 90,
+      "wins": 41,
+      "losses": 46,
+      "draws": 3,
+      "pct": ".471",
+      "gb": "14.5"
+    },
+    {
+      "rank": 6,
+      "team": "東北楽天ゴールデンイーグルス",
+      "games": 91,
+      "wins": 36,
+      "losses": 54,
+      "draws": 1,
+      "pct": ".400",
+      "gb": "21.0"
+    }
+  ]
+}
