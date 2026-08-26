@@ -1,127 +1,127 @@
 {
-  "fetched_at": "2026-08-25T03:48:40.953302+00:00",
+  "fetched_at": "2026-08-26T03:53:15.619894+00:00",
   "year": 2026,
   "central": [
     {
       "rank": 1,
       "team": "阪神タイガース",
-      "games": 111,
+      "games": 112,
       "wins": 63,
-      "losses": 47,
+      "losses": 48,
       "draws": 1,
-      "pct": ".573",
+      "pct": ".568",
       "gb": "—"
     },
     {
       "rank": 2,
       "team": "読売ジャイアンツ",
-      "games": 113,
-      "wins": 60,
+      "games": 114,
+      "wins": 61,
       "losses": 51,
       "draws": 2,
-      "pct": ".541",
-      "gb": "3.5"
+      "pct": ".545",
+      "gb": "2.5"
     },
     {
       "rank": 3,
       "team": "横浜DeNAベイスターズ",
-      "games": 112,
+      "games": 113,
       "wins": 50,
-      "losses": 59,
+      "losses": 60,
       "draws": 3,
-      "pct": ".459",
+      "pct": ".455",
       "gb": "12.5"
     },
     {
       "rank": 4,
       "team": "東京ヤクルトスワローズ",
-      "games": 111,
+      "games": 112,
       "wins": 50,
-      "losses": 60,
+      "losses": 61,
       "draws": 1,
-      "pct": ".455",
+      "pct": ".450",
       "gb": "13.0"
     },
     {
       "rank": 5,
       "team": "中日ドラゴンズ",
-      "games": 115,
-      "wins": 49,
+      "games": 116,
+      "wins": 50,
       "losses": 65,
       "draws": 1,
-      "pct": ".430",
-      "gb": "16.0"
+      "pct": ".435",
+      "gb": "15.0"
     },
     {
       "rank": 6,
       "team": "広島東洋カープ",
-      "games": 108,
-      "wins": 44,
+      "games": 109,
+      "wins": 45,
       "losses": 60,
       "draws": 4,
-      "pct": ".423",
-      "gb": "16.0"
+      "pct": ".429",
+      "gb": "15.0"
     }
   ],
   "pacific": [
     {
       "rank": 1,
       "team": "福岡ソフトバンクホークス",
-      "games": 112,
-      "wins": 69,
+      "games": 113,
+      "wins": 70,
       "losses": 41,
       "draws": 2,
-      "pct": ".627",
+      "pct": ".631",
       "gb": "—"
     },
     {
       "rank": 2,
       "team": "埼玉西武ライオンズ",
-      "games": 116,
-      "wins": 65,
+      "games": 117,
+      "wins": 66,
       "losses": 48,
       "draws": 3,
-      "pct": ".575",
+      "pct": ".579",
       "gb": "5.5"
     },
     {
       "rank": 3,
       "team": "北海道日本ハムファイターズ",
-      "games": 116,
+      "games": 117,
       "wins": 63,
-      "losses": 52,
+      "losses": 53,
       "draws": 1,
-      "pct": ".548",
-      "gb": "8.5"
+      "pct": ".543",
+      "gb": "9.5"
     },
     {
       "rank": 4,
       "team": "オリックス・バファローズ",
-      "games": 114,
+      "games": 115,
       "wins": 55,
-      "losses": 57,
+      "losses": 58,
       "draws": 2,
-      "pct": ".491",
-      "gb": "15.0"
+      "pct": ".487",
+      "gb": "16.0"
     },
     {
       "rank": 5,
       "team": "千葉ロッテマリーンズ",
-      "games": 109,
+      "games": 110,
       "wins": 51,
-      "losses": 55,
+      "losses": 56,
       "draws": 3,
-      "pct": ".481",
-      "gb": "16.0"
+      "pct": ".477",
+      "gb": "17.0"
     },
     {
       "rank": 6,
       "team": "東北楽天ゴールデンイーグルス",
-      "games": 111,
-      "wins": 43,
+      "games": 112,
+      "wins": 44,
       "losses": 67,
       "draws": 1,
-      "pct": ".391",
+      "pct": ".396",
       "gb": "26.0"
     }
   ]
