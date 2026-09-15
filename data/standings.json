@@ -1,66 +1,66 @@
 {
-  "fetched_at": "2026-09-14T08:36:20.841374+00:00",
+  "fetched_at": "2026-09-15T08:25:50.716641+00:00",
   "year": 2026,
   "central": [
     {
       "rank": 1,
       "team": "阪神タイガース",
-      "games": 125,
+      "games": 126,
       "wins": 69,
-      "losses": 55,
+      "losses": 56,
       "draws": 1,
-      "pct": ".556",
+      "pct": ".552",
       "gb": "—"
     },
     {
       "rank": 2,
       "team": "読売ジャイアンツ",
-      "games": 129,
+      "games": 130,
       "wins": 70,
-      "losses": 57,
+      "losses": 58,
       "draws": 2,
-      "pct": ".551",
+      "pct": ".547",
       "gb": "0.5"
     },
     {
       "rank": 3,
       "team": "横浜DeNAベイスターズ",
-      "games": 128,
-      "wins": 62,
+      "games": 129,
+      "wins": 63,
       "losses": 63,
       "draws": 3,
-      "pct": ".496",
-      "gb": "7.5"
+      "pct": ".500",
+      "gb": "6.5"
     },
     {
       "rank": 4,
       "team": "東京ヤクルトスワローズ",
-      "games": 127,
+      "games": 128,
       "wins": 56,
-      "losses": 69,
+      "losses": 70,
       "draws": 2,
-      "pct": ".448",
+      "pct": ".444",
       "gb": "13.5"
     },
     {
       "rank": 5,
       "team": "中日ドラゴンズ",
-      "games": 131,
-      "wins": 55,
+      "games": 132,
+      "wins": 56,
       "losses": 74,
       "draws": 2,
-      "pct": ".426",
-      "gb": "16.5"
+      "pct": ".431",
+      "gb": "15.5"
     },
     {
       "rank": 6,
       "team": "広島東洋カープ",
-      "games": 124,
-      "wins": 50,
+      "games": 125,
+      "wins": 51,
       "losses": 70,
       "draws": 4,
-      "pct": ".417",
-      "gb": "17.0"
+      "pct": ".421",
+      "gb": "16.0"
     }
   ],
   "pacific": [
